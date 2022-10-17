@@ -79,7 +79,7 @@
     word-spacing: 0.1em;
     text-align: left;
     font-style: normal;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 .ingredients ul{
   list-style-type:"-";
@@ -94,13 +94,23 @@
 .directions{
     display:flex;
     flex-direction:column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     align-content: center;
+    width: 950px;
 
 }
+.directions h2{
+    color: rgba(0, 0, 0, 0.68);
+    letter-spacing: 0.025em;
+    word-spacing: 0.1em;
+    text-align: left;
+    font-style: normal;
+    margin-bottom: 3%;
+    width:inherit
+}
 .directions img{
-    width:400px;
+    height:110px;
     padding: 20px 260px;
     border-bottom-style:solid;
     border-color:rgba(0, 0, 0, 0.3) ;
