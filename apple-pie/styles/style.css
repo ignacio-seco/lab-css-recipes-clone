@@ -11,7 +11,7 @@
 }
 .upper{    
     display:flex;
-    background-image: url("/apple-pie/images/apple-pie.jpg");
+    background-image: url("../images/apple-pie.jpg");
     background-repeat: no-repeat; 
     background-size:95%;
     background-position-x: center;
